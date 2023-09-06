@@ -10,6 +10,16 @@ const showMenu = (toggleId, navId) => {
 
 showMenu("mynav-toggle", "mynav-menu");
 
+// script.js
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".myheader");
+
+  if (window.scrollY > 0) {
+      navbar.style.backgroundColor = "#122736"; // Change to your desired background color
+  } else {
+      navbar.style.backgroundColor = "transparent";
+  }
+});
 
 
 const faqs = document.querySelectorAll(".question");
