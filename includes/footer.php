@@ -30,7 +30,7 @@
 
                         <div class="footer-quick">
                             <div class="quick-heading">
-                                <h3>Quick Links</h3>
+                                <h3 >Quick Links</h3>
                             </div>
                             <div class="quick-links">
                                 <a href="">Home</a>

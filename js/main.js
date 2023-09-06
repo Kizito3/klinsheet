@@ -10,7 +10,7 @@ const showMenu = (toggleId, navId) => {
 
 showMenu("mynav-toggle", "mynav-menu");
 
-// script.js
+
 window.addEventListener("scroll", function () {
   const navbar = document.querySelector(".myheader");
 

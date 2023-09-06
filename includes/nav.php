@@ -1,7 +1,7 @@
-<myheader class="myheader">
+<header class="myheader">
     <nav class="mynav container">
         <div class="mynav-data">
-            <a href="" class="mynav-logo">
+            <a href="index.php" class="mynav-logo">
                 <img src="images/logo.png" alt="">
             </a>
 
@@ -25,35 +25,35 @@
                     <div class="my-nav-link">Services<i class="fa-solid fa-chevron-down dropdown-arrow"></i> </div>
 
                     <ul class="mydropdown-menu">
-                        <li><a href="" class="mydropdown-link">
+                        <li><a href="overview.php" class="mydropdown-link">
                                 Overview
                             </a></li>
 
-                        <li><a href="" class="mydropdown-link">
+                        <li><a href="academic.php" class="mydropdown-link">
                                 Academic Verification
                             </a></li>
 
-                        <li><a href="" class="mydropdown-link">
+                        <li><a href="employee.php" class="mydropdown-link">
                                 Previous Employer Check
                             </a></li>
 
-                        <li><a href="" class="mydropdown-link">
+                        <li><a href="guarantor.php" class="mydropdown-link">
                                 Guarantors/ Reference Check
                             </a></li>
 
-                        <li><a href="" class="mydropdown-link">
+                        <li><a href="nysc.php" class="mydropdown-link">
                                 NYSC Verification
                             </a></li>
 
-                        <li><a href="" class="mydropdown-link">
+                        <li><a href="address.php" class="mydropdown-link">
                                 Address Confirmation
                             </a></li>
 
-                        <li><a href="" class="mydropdown-link">
+                        <li><a href="credit-check.php" class="mydropdown-link">
                                 Credit Check
                             </a></li>
 
-                        <li><a href="" class="mydropdown-link">
+                        <li><a href="criminal-check.php" class="mydropdown-link">
                                 Criminal Check
                             </a></li>
 
@@ -80,4 +80,4 @@
             </ul>
         </div>
     </nav>
-</myheader>
+</header>
