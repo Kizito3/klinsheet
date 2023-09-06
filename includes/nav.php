@@ -14,11 +14,11 @@
         <div class="mynav-menu" id="mynav-menu">
             <ul class="mynav-list">
                 <li>
-                    <a href="" class="my-nav-link">Home</a>
+                    <a href="index.php" class="my-nav-link">Home</a>
                 </li>
 
                 <li>
-                    <a href="" class="my-nav-link">About Us</a>
+                    <a href="about.php" class="my-nav-link">About Us</a>
                 </li>
 
                 <li class="mydropdown-item">
