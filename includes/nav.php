@@ -64,7 +64,7 @@
                 </li>
 
                 <li>
-                    <a href="" class="my-nav-link">Request a Quote</a>
+                    <a href="request-quote.php" class="my-nav-link">Request a Quote</a>
                 </li>
 
                 <li>
@@ -72,10 +72,10 @@
                 </li>
 
                 <li>
-                    <a href="" class="my-nav-link">Job Portal</a>
+                    <a href="job-portal.php" class="my-nav-link">Job Portal</a>
                 </li>
                 <div class="contact-btn">
-                    <button class="link-btn">register</button>
+                    <a href="contact.php"><button class="link-btn">Contact Us</button></a>
                 </div>
             </ul>
         </div>

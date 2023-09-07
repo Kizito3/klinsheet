@@ -8,6 +8,9 @@
             <div class="hr-details">
                 <div class="hr-img">
                     <img src="images/hr1.png" class="img-fluid" alt="">
+                    <div class="hr-sub-img">
+                        <img src="images/h3.png" alt="">
+                    </div>
                     <div class="hr-text">
                         <h2>Training</h2>
                         <p>Because we are into recruitment, the logical outworking entails that we train these recruited staff.</p>
@@ -17,6 +20,9 @@
 
                 <div class="hr-img">
                     <img src="images/hr2.png" class="img-fluid" alt="">
+                    <div class="hr-sub-img">
+                        <img src="images/h1.png" alt="">
+                    </div>
                     <div class="hr-text">
                         <h2>HR Outsourcing</h2>
                         <p>We understand HR and its vital role in any organisation hence our unalloyed determination to provide the best.</p>
@@ -26,6 +32,9 @@
 
                 <div class="hr-img">
                     <img src="images/hr3.png" class="img-fluid" alt="">
+                    <div class="hr-sub-img">
+                        <img src="images/h2.png" alt="">
+                    </div>
                     <div class="hr-text">
                         <h2>Business Advisory</h2>
                         <p>We provide expert, succinct and matter of fact assessment of your business.  Business priorities often change in.</p>
