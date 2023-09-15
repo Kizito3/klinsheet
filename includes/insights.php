@@ -11,7 +11,7 @@
                         <div><img src="images/checkmark.png" alt=""></div>
                         <div class="all-insights">
                             <div>
-                                <h5>The Importance of Guarantor <br> Validation Check</h5>
+                                <h5> <a href="https://klinsheet.com/blog/index.php/2021/03/22/importance-guarantor-validation-checks/" target="_blank" class="insight-link">The Importance of Guarantor <br> Validation Check</a> </h5>
                             </div>
                             <div> <span>March 22, 2021</span></div>
                         </div>
@@ -21,7 +21,7 @@
                         <div><img src="images/w-pen.png" alt=""></div>
                         <div class="all-insights">
                             <div>
-                                <h5>The Importance of Guarantor <br> Validation Check</h5>
+                                <h5> <a href="https://klinsheet.com/blog/index.php/2021/03/22/importance-guarantor-validation-checks/" target="_blank" class="insight-link">The Importance of Guarantor <br> Validation Check</a> </h5>
                             </div>
                             <div> <span>March 22, 2021</span></div>
                         </div>
@@ -31,7 +31,7 @@
                         <div><img src="images/modern.png" alt=""></div>
                         <div class="all-insights">
                             <div>
-                                <h5>The Importance of Guarantor <br> Validation Check</h5>
+                                <h5> <a href="https://klinsheet.com/blog/index.php/2021/02/17/right-job-application-form/" target="_blank" class="insight-link">The Importance of Guarantor <br> Validation Check</a> </h5>
                             </div>
                             <div> <span>March 22, 2021</span></div>
                         </div>

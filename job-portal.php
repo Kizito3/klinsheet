@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-
+    <link rel="icon" href="images/favicon.png" />
 </head>
 
 <body>
@@ -71,7 +71,7 @@
     </section>
 
     <?php include("includes/footer.php"); ?>
-
+    <button id="scrollToTopButton"><i class="fa-solid fa-arrow-up"></i></button>
 <script src="js/main.js"></script>
 </body>
 </html>

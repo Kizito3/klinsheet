@@ -17,14 +17,14 @@
                                 <h3>Services</h3>
                             </div>
                             <div class="service-links">
-                                <a href="">Academic</a>
-                                <a href="">Guarantor</a>
-                                <a href="">Reference</a>
-                                <a href="">Previous Employer</a>
-                                <a href="">NYSC</a>
-                                <a href="">Address</a>
-                                <a href="">Credit</a>
-                                <a href="">Criminal</a>
+                                <a href="academic.php">Academic</a>
+                                <a href="guarantor.php">Guarantor</a>
+                                <a href="#">Reference</a>
+                                <a href="employee.php">Previous Employer</a>
+                                <a href="nysc.php">NYSC</a>
+                                <a href="address.php">Address</a>
+                                <a href="credit-check.php">Credit</a>
+                                <a href="criminal-check.php">Criminal</a>
                             </div>
                         </div>
 
@@ -33,11 +33,11 @@
                                 <h3 >Quick Links</h3>
                             </div>
                             <div class="quick-links">
-                                <a href="">Home</a>
-                                <a href="">About</a>
-                                <a href="">Background Check</a>
-                                <a href="">Recruitment</a>
-                                <a href="">Contact</a>
+                                <a href="index.php">Home</a>
+                                <a href="about.php">About</a>
+                                <a href="#">Background Check</a>
+                                <a href="#">Recruitment</a>
+                                <a href="contact.php">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,8 @@
                         </div>
 
                         <div class="subscribe-input">
-                            <input type="text" name="" placeholder="Enter your email"> <button>Subscribe</button>
+                            <input type="text" name="" placeholder="Enter your email"> 
+                            <button>Subscribe</button>
                         </div>
                     </div>
                 </div>
@@ -66,10 +67,10 @@
                    </div>
 
                    <div class="all-icons">
-                        <img src="images/instagram.png" alt="">
-                        <img src="images/facebook.png" alt="">
-                        <img src="images/twitter.png" alt="">
-                        <img src="images/linkedin.png" alt="">
+                       <a href="http://facebook.com/klinsheet"target="_blank"><img src="images/facebook.png" alt=""></a> 
+                       <a href="http://twitter.com/klinsheet"target="_blank"><img src="images/twitter.png" alt=""></a> 
+                      <a href="https://www.instagram.com/klinsheetconsulting/"target="_blank"><img src="images/instagram.png" alt=""></a>  
+                        <a href="https://www.linkedin.com/company/klinsheet-consulting-limited" target="_blank"><img src="images/linkedin.png" alt=""></a>
                    </div>
                 </div>
             </div>

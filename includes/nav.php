@@ -25,27 +25,27 @@
                     <div class="my-nav-link">Services<i class="fa-solid fa-chevron-down dropdown-arrow"></i> </div>
 
                     <ul class="mydropdown-menu">
-                        <li><a href="overview.php" class="mydropdown-link">
+                        <li><a href="background-check-in-nigeria.php" class="mydropdown-link">
                                 Overview
                             </a></li>
 
-                        <li><a href="academic.php" class="mydropdown-link">
+                        <li><a href="academic-verification.php" class="mydropdown-link">
                                 Academic Verification
                             </a></li>
 
-                        <li><a href="employee.php" class="mydropdown-link">
+                        <li><a href="previous-employer-check.php" class="mydropdown-link">
                                 Previous Employer Check
                             </a></li>
 
-                        <li><a href="guarantor.php" class="mydropdown-link">
+                        <li><a href="guarantor-reference-check.php" class="mydropdown-link">
                                 Guarantors/ Reference Check
                             </a></li>
 
-                        <li><a href="nysc.php" class="mydropdown-link">
+                        <li><a href="nysc-verification.php" class="mydropdown-link">
                                 NYSC Verification
                             </a></li>
 
-                        <li><a href="address.php" class="mydropdown-link">
+                        <li><a href="address-confirmation.php" class="mydropdown-link">
                                 Address Confirmation
                             </a></li>
 
@@ -57,18 +57,18 @@
                                 Criminal Check
                             </a></li>
 
-                        <li><a href="" class="mydropdown-link">
+                        <li><a href="pricing.php" class="mydropdown-link">
                                 Pricing
                             </a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="request-quote.php" class="my-nav-link">Request a Quote</a>
+                    <a href="request-a-proposal.php" class="my-nav-link">Request a Quote</a>
                 </li>
 
                 <li>
-                    <a href="" class="my-nav-link">Insights</a>
+                    <a href="https://klinsheet.com/blog/" class="my-nav-link">Insights</a>
                 </li>
 
                 <li>

@@ -3,18 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klinsheet consulting</title>
+    <meta name="keywords" content="Best Background Check Company in Nigeria, Top Background Check Company in Nigeria, Background Check Company in Nigeria, Background Check companies in Nigeria, Academic Verification, Criminal Record Check, Previous Employer Verification, NYSC Verification, Guarantor Verification, Referee Verification, Reference Check, Address Confirmation, Credit Check">
+    <meta name="description" content="Dependable Background checks can be a valuable tool for selecting the right candidate fit every time. This can eliminate future problems for a company">
+
+    <title>Dependable Background Check Company in Nigeria | Klinsheet Consulting Ltd</title>
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="icon" href="images/favicon.png" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 
 </head>
 
 <body>
+
 
     <?php include("includes/nav.php"); ?>
 
@@ -36,7 +43,17 @@
                     </div>
                 </div>
             </div>
+
+            <div class="hero-section2">
+                <div class="hero2-heading">
+                    <h2>The Most Dependable Background check company in Nigeria</h2>
+                </div>
+                <div class="hero2-btn">
+                    <button>Learn More</button>
+                </div>
+            </div>
         </div>
+
     </section>
 
     <section>
@@ -66,7 +83,7 @@
     <?php include("includes/hr-section.php"); ?>
 
 
-    <section>
+    <section class="achieve-section">
         <div class="achieve-heading">
             <h2>Our Achievements</h2>
         </div>
@@ -104,15 +121,30 @@
                     <h2>Hiring With The Right Job Application Form</h2>
                 </div>
                 <p>Are you using the right job application form? If you would like to see what an exceptional <br> application and guarantor form looks like, enter your email and download now!</p>
-                <div class="input-hire">
-                    <input type="text" placeholder="Enter your email">
-                </div>
-                <div class="robot">
-                    <img src="images/robot.png" alt="">
-                </div>
-                <div class="hiring-btn">
-                    <button>Download</button>
-                </div>
+                <form action="proc-download.php" method="post">
+                    <!-- <?php
+
+                    if ($_GET['succ'] == 'yes') {
+                        echo '<div class="alert alert-success">Your message has been sent. One of our representatives would contact you.</div>';
+                    }
+
+                    if ($error) {
+                        echo '<div class="alert alert-danger ">' . $error . '</div>';
+                    }
+
+                    ?> -->
+                    <div class="input-hire">
+                        <input type="text" placeholder="Enter your email" name="email">
+                    </div>
+                    <div class="robot">
+                        <!-- <img src="images/robot.png" alt=""> -->
+                        <div class="g-recaptcha" name="g-recaptcha-response" data-sitekey="6Lc7JikoAAAAAJw1RvQa1CnqSiqYyYoeP4VTKNNo">
+                        </div>
+                    </div>
+                    <div class="hiring-btn">
+                        <button type="submit">Download</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -135,8 +167,8 @@
 
 
 
-   <?php include("includes/footer.php") ?> 
-
+    <?php include("includes/footer.php") ?>
+    <button id="scrollToTopButton"><i class="fa-solid fa-arrow-up"></i></button>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 
     <script src="js/main.js"></script>
