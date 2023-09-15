@@ -599,22 +599,29 @@ line-height: normal;
   font-weight: 500;
   line-height: 150%;
 }
-
+.what-btn a{
+  text-decoration: none;
+}
 .what-btn button{
   background-color: var(--tertiary-color);
   border: none;
   border-radius: 10px;
   font-family: Poppins;
-  width: 119px;
+  width: 159px;
   height: 38px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   color: var(--white);
-font-size: 12px;
+font-size: 16px;
 font-weight: 500;
 line-height: normal;
+transition: all .4s ease;
+}
+
+.what-btn button:hover{
+  background-color: var(--sec-color);
 }
 
 .hr-section{
@@ -851,6 +858,10 @@ border-radius: 10px;
 transition: all .4s ease-in-out;
 }
 
+.consult-btn a{
+  text-decoration: none;
+}
+
 .consult-btn button:hover{
   background-color: var(--tertiary-color);
 }
@@ -1036,10 +1047,11 @@ line-height: 150%; /* 24px */
 .insight-link{
   text-decoration: none;
   color: #000;
+  transition: all .4s ease;
 }
 
 .insight-link:hover{
-  color: #000 !important;
+  color: var(--sec-color);
 }
 .insights-details span{
 color: #000;
@@ -1811,6 +1823,22 @@ transition: all .4s ease;
 .truth-btn2{
   margin-top: 13px;
 }
+
+.link-test2{
+  text-decoration: none;
+  color: var(--black);
+  transition: all .4s ease;
+}
+.truth-btn1:hover .link-test2{
+  color: var(--sec-color);
+}
+.link-test:hover{
+  color: var(--white);
+}
+.link-test{
+  text-decoration: none;
+  color: #fff;
+}
 .truth-btn2 button{
   display: flex;
   font-family: Poppins;
@@ -1836,6 +1864,14 @@ transition: all .4s ease;
 } */
 
 
+.link-contact{
+  text-decoration: none;
+  color: var(--white);
+  transition: all .4s ease;
+}
+.check-btn:hover .link-contact{
+  color: var(--white);
+}
 .check-section{
   background-color: var(--primary-color);
   padding-block: 60px;
@@ -1887,6 +1923,16 @@ line-height: normal;
 .check-btn button:hover{
   background-color: var(--tertiary-color);
   transition: all .4s ease;
+}
+
+.check-link{
+  text-decoration: none;
+  color: var(--white);
+  transition: all .4s ease;
+}
+
+.check-btn:hover .check-link{
+  color: var(--white);
 }
 
 .reliable{

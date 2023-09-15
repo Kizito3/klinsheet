@@ -33,7 +33,7 @@
                         in Nigeria
                     </h2>
                     <div class="hero-btn">
-                        <button>learn more</button>
+                        <a href="about.php"><button>learn more</button></a>
                     </div>
                 </div>
                 <div class="hero-img">
@@ -49,7 +49,7 @@
                     <h2>The Most Dependable Background check company in Nigeria</h2>
                 </div>
                 <div class="hero2-btn">
-                    <button>Learn More</button>
+                    <a href="about.php"><button>Learn More</button></a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                     <p>Background checks in Nigeria can be a valuable tool for selecting the right candidate fit every time. When used consistently, this simple step can eliminate many future problems for the company.</p>
                 </div>
                 <div class="what-btn">
-                    <button>learn more</button>
+                    <a href="about.php"><button>learn more</button></a>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                 <h3>Looking for First-Class <br> Background Check consultants?</h3>
                 <p>We help to instil integrity in the employment process of our clients, using our competitive prices to provide the best and <br> qualitative background check process and ensuring the right people are on their payroll at all times.</p>
                 <div class="consult-btn">
-                    <button>Free consultation</button>
+                    <a href="contact.php"><button>Free consultation</button></a>
                 </div>
             </div>
         </div>

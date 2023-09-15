@@ -38,10 +38,10 @@
                     <p>Background checks in Nigeria can be a valuable tool for selecting <br> the right candidate fit every time. When used consistently, this <br> simple step can eliminate many future problems for the company. <br> As a recruiter, it is vital to ensuring that a candidate meets the full <br>requirements of each assignment and that the return <br> on investment will be a good one for the client receiving the <br> candidate.</p>
                     <div class="truth-btn">
                             <div class="truth-btn1">
-                                <button><img src="images/t-down.png" alt="">Download Brochure</button>
+                            <a href="https://drive.google.com/file/d/12fSEdBgCID1f-mBgkPoCZcZfkVfThGq7/view" class="link-test2" target="_blank"><button><img src="images/t-down.png" alt="">Download Brochure</button></a>
                             </div>
                             <div class="truth-btn2">
-                                <button><img src="images/t-quote.png" alt="">Request a Quote</button>
+                            <a href="request-a-proposal.php" class="link-test"><button><img src="images/t-quote.png" alt="">Request a Quote</button></a>
                             </div>
                         </div>
                 </div>
@@ -58,7 +58,7 @@
                     <p>Today, not many recruiters are aware of the significance of running a background check in Nigeria.  With the current rate of unemployment in the country, applicants are now more desperate than ever, and this has caused an increase in the way they portray themselves when seeking a new job. </p>
                     <p>Before now, getting a professional CV only meant to showcase one’s achievements in previous roles to prospective employers in an appealing manner. However, this is no longer the case, as applicants now double as opportunists who tell fancy lies in their CVs. Nowadays, applicants tend to bloat their profiles in a bid to appear more attractive to recruiters.</p>
                     <div class="truth-btn2 check-btn">
-                    <button>Request a Quote</button>
+                    <a href="request-a-proposal.php" class="check-link"><button>Request a Quote</button></a>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
 
                     <p> Hence, the onus rests on recruiters to run a background check on their prospective employees. Running a background check in Nigeria could help to eliminate potential problems that employees could cause their organizations. Also, it behoves a recruiter to confirm that a prospective employee meets the requirements and fits the job description of a role he is being considered for. This will help ascertain that he is able to carry out his assignments and add value to the organization. Be it as it may, informed recruiters are aware of the fact that Klinsheet Consulting offers the most reliable background check in Nigeria.</p>
                     <div class="truth-btn2 check-btn">
-                    <button>Contact Us Now</button>
+                    <a href="contact.php" class="link-contact"><button>Contact Us Now</button></a>
                     </div>
                 </div>
 
