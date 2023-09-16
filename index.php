@@ -33,7 +33,7 @@
                         in Nigeria
                     </h2>
                     <div class="hero-btn">
-                        <a href="about.php"><button>learn more</button></a>
+                        <a href="about.php"><button>Learn more</button></a>
                     </div>
                 </div>
                 <div class="hero-img">
@@ -59,7 +59,26 @@
     <section>
         <div class="container">
             <div class="partners">
-                <img src="images/partners.png" class="img-fluid" alt="">
+                <!-- <img src="images/partners.png" class="img-fluid" alt=""> -->
+                <marquee>
+                    <img src="images/gtb.png" alt="">
+                    <img src="images/talenture.png" alt="">
+                    <img src="images/ryte.png" alt="">
+                    <img src="images/habri.png" alt="">
+                    <img src="images/outsidehr.png" alt="">
+                    <img src="images/allianz.png" alt="">
+                    <img src="images/craneburg.png" alt="">
+                    <img src="images/rhs.png" alt="">
+                    <img src="images/finatrust.png" alt="">
+                    <img src="images/seflam.png" alt="">
+                    <img src="images/ihrdc.png" alt="">
+                    <img src="images/keyport.png" alt="">
+                    <img src="images/mainstreetmfb.png" alt="">
+                    <img src="images/prohealth.png" alt="">
+                    <img src="images/soschildren.png" alt="">
+                    <img src="images/smartpartners.png" alt="">
+                    <img src="images/efina.png" alt="">
+                </marquee>
             </div>
         </div>
     </section>
@@ -74,7 +93,7 @@
                     <p>Background checks in Nigeria can be a valuable tool for selecting the right candidate fit every time. When used consistently, this simple step can eliminate many future problems for the company.</p>
                 </div>
                 <div class="what-btn">
-                    <a href="about.php"><button>learn more</button></a>
+                    <a href="about.php"><button>Learn more</button></a>
                 </div>
             </div>
         </div>

@@ -172,7 +172,7 @@
                     <p>We deliver exceptional value to our clients in the area of Employee verification, vetting and physical <br> background check services.</p>
                 </div>
 
-                <div class="ab-dependable">
+                <!-- <div class="ab-dependable">
                     <div class="dependable-con1">
                         <div class="dependable-img">
                             <img src="images/Ellipse.png" alt="">
@@ -201,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="youtube-area">
                    <div class="youtube-testing">

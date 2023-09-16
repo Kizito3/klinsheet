@@ -83,21 +83,26 @@
             <div class="local-details">
                 <div class="local1 my-local">
                     <h5>LOCATION</h5>
-                    <p>Abbey Mortgage Bank Building 51,<br> Okota Road,<br>Okota-Isolo, Lagos.</p>
+                    <p>Abbey Mortgage Bank Building,<br> 51 Okota Road,<br>Okota-Isolo, Lagos.</p>
                 </div>
 
                 <div class="local1">
                     <h5>EMAIL</h5>
-                    <p>verify@klinsheet.com</p>
+                    <p><a href="mailto:verify@klinsheet.com" class="email-link"> verify@klinsheet.com</a></p>
                 </div>
 
                 <div class="local1">
                     <h5>PHONE</h5>
-                    <p>+234701 463 6348</p>
+                    <p><a href="tel:+234 701 463 6348" class="email-link">+234 701 463 6348</a></p>
                 </div>
             </div>
 
+            
+
         </div>
+        <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7928.0355970650635!2d3.318239!3d6.51943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ef4a6f7dcc5%3A0x506d881b2ff4b92e!2s51%20Okota%20Rd%2C%20Ilasamaja%20234001%2C%20Lagos!5e0!3m2!1sen!2sng!4v1614950276597!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
     </section>
 
 

@@ -22,7 +22,7 @@
                 <div class="faq-margin">
                 <button class="question">Does klinsheet helps in fraud/debt recovery? <i class="fa-solid fa-chevron-down faq-icon"></i></button>
                 
-                    <div class="answer">
+                    <div class="answer answer1">
                         <p>No! We do not render debt recovery services.</p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                 <div class="faq-margin">
                     <button class="question">Does the Nigeria police have a database where they store criminal reports?<i class="fa-solid fa-chevron-down faq-icon"></i></button>
                 
-                    <div class="answer">
+                    <div class="answer answer3">
                         <p>YES! The Nigeria Police headquarters has the records, finger prints and photos of all convicted criminals in Nigeria.</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="faq-margin">
                     <button class="question">Do you verify foreign certificates?<i class="fa-solid fa-chevron-down faq-icon"></i></button>
                 
-                    <div class="answer">
+                    <div class="answer answer2">
                         <p>YES! We verify foreign certificates. We are in partnership with other reputable background check companies outside Nigeria. This enables us to deliver value to our customers without hassles.</p>
                     </div>
                 </div>
