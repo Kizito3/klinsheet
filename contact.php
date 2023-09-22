@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    
 <style>
         .mycaptcha {
             margin-left: 510px;
@@ -27,6 +28,7 @@
             }
         }
     </style>
+    <div id="preloader"></div>
 
     <?php include("includes/nav.php"); ?>
 
@@ -44,15 +46,15 @@
                 <h2>Keep in Touch with Us</h2>
             </div>
             <div class="all-form">
-                <form action="proc-contact.php">
+                <form action="proc-contact.php" method="post">
                     <?php
 
                     if ($_GET['succ'] == 'yes') {
-                        echo '<div class="alert alert-success">Your message has been sent. One of our representatives would contact you.</div>';
+                        echo '<div class="alert alert-success alert-dismissible fade show " role="alert"> <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" <span aria-hidden="true"></span></button>Your message has been sent. One of our representatives would contact you.</div>';
                     }
 
                     if ($error) {
-                        echo '<div class="alert alert-danger ">'.$error.'</div>';
+                        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"<span aria-hidden="true"></span></button>'.$error.'</div>';
                     }
 
                     ?>
@@ -111,6 +113,7 @@
     <?php include("includes/footer.php"); ?>
     <button id="scrollToTopButton"><i class="fa-solid fa-arrow-up"></i></button>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

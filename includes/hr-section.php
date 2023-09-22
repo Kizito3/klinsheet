@@ -29,7 +29,7 @@
                     </div>
                     <div class="hr-text">
                         <h2>HR Outsourcing</h2>
-                        <p>Because we are into recruitment, the logical outworking entails that we train these recruited staff.</p>
+                        <p>We understand HR and its vital role in any organisation hence our unalloyed determination to provide the best.</p>
                         <a href="hr-outsourcing.php">Read More <i class="fa-solid fa-arrow-right read-arrow"></i></a>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="hr-text">
                         <h2>Business Advisory</h2>
-                        <p>Because we are into recruitment, the logical outworking entails that we train these recruited staff.</p>
+                        <p>We provide expert, succinct and matter of fact assessment of your business. Business priorities often change in...</p>
                         <a href="business-advisory.php">Read More <i class="fa-solid fa-arrow-right read-arrow"></i></a>
                     </div>
                 </div>

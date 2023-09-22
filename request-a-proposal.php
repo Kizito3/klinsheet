@@ -28,6 +28,8 @@
             }
         }
     </style>
+        <div id="preloader"></div>
+
     <?php include("includes/nav.php"); ?>
 
     <section class="request-quote-section">
@@ -47,7 +49,7 @@
                 <?php
 
                 if ($_GET['succ'] == 'yes') {
-                    echo '<div class="alert alert-success">Your message has been sent. One of our representatives would contact you.</div>';
+                    echo '<div class="alert alert-success"> <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> Your message has been sent. One of our representatives would contact you.</div>';
                 }
 
                 if ($error) {
@@ -116,6 +118,7 @@
     <?php include("includes/footer.php"); ?>
     <button id="scrollToTopButton"><i class="fa-solid fa-arrow-up"></i></button>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

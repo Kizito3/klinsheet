@@ -1,9 +1,5 @@
 <?php
 
-error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
-ini_set('display_errors', 1);
-
-
 if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
     $secret = '6Lc7JikoAAAAAL2SL10Xm8RYY4Yijc2gziEyiNER';
     $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
@@ -23,9 +19,9 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
             include('index.php');
             exit;
         }
-        $to = 'verify@klinsheet.com';
+        $to = $email;
         $subject = 'Message from contact form';
-        $from = "$email";
+        $from = "verify@klinsheet.com";
 
         $content = 'Below are the details that were filled:' . "\n"
             . 'Email: ' . $email . "\n";

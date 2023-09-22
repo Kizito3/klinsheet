@@ -68,7 +68,7 @@
                 </li>
 
                 <li>
-                    <a href="https://klinsheet.com/blog/" class="my-nav-link">Insights</a>
+                    <a href="https://klinsheet.com/blog/" target="_blank" class="my-nav-link">Insights</a>
                 </li>
 
                 <li>

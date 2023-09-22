@@ -22,6 +22,9 @@
 
 <body>
 
+    <div id="preloader"></div>
+
+
 
     <?php include("includes/nav.php"); ?>
 
@@ -60,7 +63,7 @@
         <div class="container">
             <div class="partners">
                 <!-- <img src="images/partners.png" class="img-fluid" alt=""> -->
-                <marquee>
+                <marquee onmouseover="stop()" onmouseout="start()">
                     <img src="images/gtb.png" alt="">
                     <img src="images/talenture.png" alt="">
                     <img src="images/ryte.png" alt="">
@@ -132,7 +135,6 @@
 
 
     <?php include("includes/insights.php"); ?>
-
     <section class="application">
         <div class="container">
             <div class="hiring">
@@ -140,18 +142,18 @@
                     <h2>Hiring With The Right Job Application Form</h2>
                 </div>
                 <p>Are you using the right job application form? If you would like to see what an exceptional <br> application and guarantor form looks like, enter your email and download now!</p>
+                    <?php
+
+                            if ($_GET['succ'] == 'yes') {
+                                echo '<div class="alert alert-success alert-dismissible fade show " role="alert"> <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" <span aria-hidden="true"></span></button>Message sent, please check your email.</div>';
+                            }
+
+                            if ($error) {
+                                echo '<div class="alert alert-danger alert-dismissible fade show" role="alert"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"<span aria-hidden="true"></span></button>' . $error . '</div>';
+                            }
+
+                            ?>
                 <form action="proc-download.php" method="post">
-                    <!-- <?php
-
-                    if ($_GET['succ'] == 'yes') {
-                        echo '<div class="alert alert-success">Your message has been sent. One of our representatives would contact you.</div>';
-                    }
-
-                    if ($error) {
-                        echo '<div class="alert alert-danger ">' . $error . '</div>';
-                    }
-
-                    ?> -->
                     <div class="input-hire">
                         <input type="text" placeholder="Enter your email" name="email">
                     </div>
@@ -191,6 +193,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

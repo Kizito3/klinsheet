@@ -14,6 +14,7 @@
     <link rel="icon" href="images/favicon.png" />
 </head>
 <body>
+<div id="preloader"></div>
 
     <?php include("includes/nav.php"); ?>
 

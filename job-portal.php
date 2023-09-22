@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<div id="preloader"></div>
 
     <?php include("includes/nav.php"); ?>
 

@@ -63,7 +63,7 @@
 
                 <div class="footer-icons">
                    <div class="copyright">
-                   <p>&copy;2023 Klinsheet Consulting Ltd. All rights reserved</p>
+                   <p>&copy; <?php echo date('Y');?> Klinsheet Consulting Ltd. All rights reserved</p>
                    </div>
 
                    <div class="all-icons">

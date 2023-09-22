@@ -16,6 +16,7 @@
 </head>
 
 <body>
+<div id="preloader"></div>
 
     <?php include("includes/nav.php"); ?>
     <section class="pricing-section1">
